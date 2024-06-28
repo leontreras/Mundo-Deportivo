@@ -1,0 +1,317 @@
+3<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Deportivo</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="ico" href="logoa.ico" type="image/x-ico">
+</head>
+<body>
+    <div id="welcome-screen">
+        <h1>WELCOME TO:</h1>
+        <h1>Mundo Deportivo NTB</h1>
+        <br>
+        <img src="C:\Users\Atzyri contreras\Downloads\sub1\logoa.jpg"height="50%" width="50%">
+        <br>
+        <button id="continue-button">Continuar</button>
+    </div>
+    <header id="main-header">
+        <h1>MUNDO DEPORTIVO</h1>
+        <img src="C:\Users\Atzyri contreras\Downloads\sub1\logoa.jpg"height="10% px" width="10% px">
+        <nav>
+            <ul>
+                <li><a href="#nba">NBA</a></li>
+                <li><a href="#compras">Compras</a></li>
+                <li><a href="#partidos">Partidos</a></li>
+                <li><a href="#entrevistas">Entrevistas</a></li>
+                <li><a href="#datos-interesantes">Datos Interesantes</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#registrate">Registrate</a></li>
+            </ul>
+            <form action="https://www.google.com/search" method="get" target="_blank">
+                <input type="text" name="q" placeholder="Buscar en Google...">
+                <button type="submit">Buscar</button>
+            </form>
+        </nav>
+    </header>
+
+    <main>
+        <section id="nba">
+            <h2>Noticias de la NBA</h2>
+            <div id="noticias" class="grid-container">
+                <div class="card">
+                    <h3>La última victoria de los Lakers</h3>
+                    <p>Los Lakers ganan con un tiro de último segundo.</p>
+                    <a href="https://us.as.com/baloncesto/cuando-fue-la-ultima-vez-que-los-lakers-vencieron-a-los-nuggets-n/#:~:text=La%20temporada%20regular%20de%20la%20NBA%202022-23%20vio,Ese%20enfrentamiento%20termin%C3%B3%20121-110%20en%20favor%20de%20Lakers." target="_blank">Mostrar más</a>
+                </div>
+                <div class="card">
+                    <h3>Kevin Durant logra un récord</h3>
+                    <p>Durant se convierte en el máximo anotador de la temporada.</p>
+                    <a href="https://swingcompleto.com/kevin-durant-logro-record-personal-puntos-nba-240311/#:~:text=Ahora%20fueron%2037%20puntos%20versus%20Cleveland%20Cavaliers%2C%20para,En%2025%20ha%20logrado%2030%20o%20m%C3%A1s%20unidades." target="_blank">Mostrar más</a>
+                </div>
+                <div class="card">
+                    <h3>Los Warriors en la cima</h3>
+                    <p>Los Golden State Warriors lideran la conferencia oeste.</p>
+                    <a href="https://www.unotv.com/deportes/los-warriors-regresan-a-la-cima-de-la-nba-mexicano-juan-toscano-hace-historia/" target="_blank">Mostrar más</a>
+                </div>
+                <div class="card">
+                    <h3>Stephen Curry rompe el récord de triples en una temporada</h3>
+                    <p>Curry establece un nuevo récord histórico de triples anotados en una sola temporada de la NBA.</p>
+                    <a href="https://laverdad.com.mx/2024/03/stephen-curry-bate-record-con-300-triples-por-quinta-temporada-en-la-nba/#:~:text=marzo%2021%2C%202024%20El%20astro%20Stephen%20Curry%20hizo,de%20Memphis%20con%20un%20marcador%20final%20de%20137-116." target="_blank">Mostrar más</a>
+                </div>
+                <div class="card">
+                    <h3>Los Bucks de Milwaukee ganan 20 partidos consecutivos</h3>
+                    <p>Milwaukee Bucks establece una nueva marca al ganar 20 partidos consecutivos en la temporada regular.</p>
+                    <a href="https://espndeportes.espn.com/basquetbol/nba/equipo/estadisticas/_/nombre/mil" target="_blank">Mostrar más</a>
+                </div>
+                <div class="card">
+                    <h3>Giannis Antetokounmpo gana su tercer MVP</h3>
+                    <p>Giannis Antetokounmpo es nombrado MVP de la temporada por tercera vez en su carrera.</p>
+                    <a href="https://www.sportingnews.com/es/milwaukee-bucks/news/giannis-antetokounmpo-mvp-historia-nba-estadisticas/1qgcv68bkmmzf1djrkl3ogolsq" target="_blank">Mostrar más</a>
+                </div>
+
+            </div>
+            <button class="back-button" onclick="backToHome()">Volver a Inicio</button>
+        </section>
+        <section id="compras">
+            <h2>Productos Disponibles</h2>
+            <div id="productos" class="grid-container product-grid">
+                <div class="card">
+                    <h3>Spalding NBA Official</h3>
+                    <p>Precio: $59.99</p>
+                    <img src="C:\Users\Atzyri contreras\Downloads\sub1\paldin..jpg" alt="Spalding NBA Official">
+                </div>
+                <div class="card">
+                    <h3>Wilson Evolution</h3>
+                    <p>Precio: $49.99</p>
+                    <img src= "C:\Users\Atzyri contreras\Downloads\sub1\wil.jpg" alt="Wilson Evolution">
+                </div>
+                <div class="card">
+                    <h3>Nike Elite</h3>
+                    <p>Precio: $44.99</p>
+                    <img src="C:\Users\Atzyri contreras\Downloads\sub1\elite.jpg" alt="Nike Elite">
+                </div>
+                <div class="card">
+                    <h3>Molten BGMX</h3>
+                    <p>Precio: $69.99</p>
+                    <img src= "C:\Users\Atzyri contreras\Downloads\sub1\molt.jpg" alt="Molten BGMX">
+                </div>
+                <div class="card">
+                    <h3>Under Armour 495</h3>
+                    <p>Precio: $39.99</p>
+                    <img src="C:\Users\Atzyri contreras\Downloads\sub1\under.jpg" alt="Under Armour 495">
+                </div>
+                <div class="card">
+                    <h3>Basquete Adams</h3>
+                    <p>Precio: $54.99</p>
+                    <img src="C:\Users\Atzyri contreras\Downloads\sub1\adams.jpg" alt="Basquete Adams">
+                </div>
+                <div class="card">
+                    <h3>Spalding Precision</h3>
+                    <p>Precio: $64.99</p>
+                    <img src="C:\Users\Atzyri contreras\Downloads\sub1\predicision.jpg" alt="Spalding Precision">
+                </div>
+                <div class="card">
+                    <h3>Wilson FIBA 3x3</h3>
+                    <p>Precio: $34.99</p>
+                    <img src="C:\Users\Atzyri contreras\Downloads\sub1\3x3.jpg" alt="Wilson FIBA 3x3">
+                </div>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/xalSIewoeAA?si=StQQsjSkbjqB0a0a" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <button class="back-button" onclick="backToHome()">Volver a Inicio</button>
+        </section>
+
+        <section id="partidos">
+            <h2>Videos de Partidos Recientes</h2>
+            <div id="videosPartidos" class="grid-container">
+                <div class="card">
+                    <h3>Lakers vs Warriors</h3>
+                    <a href="https://youtu.be/LPDnemFoqVk?si=VBFY7wcqjlFlWl5w" target="_blank">Ver Video</a>
+                </div>
+                <div class="card">
+                    <h3>Bucks vs Nets</h3>
+                    <a href="https://youtu.be/mJeolenJxgg?si=Npz_e5SQgNIODDz0" target="_blank">Ver Video</a>
+                </div>
+                <div class="card">
+                    <h3>Warriors vs Cavaliers</h3>
+                    <a href="https://youtu.be/h5pTl8fOM2U?si=MlWnCdsAgoriEK5z" target="_blank">Ver Video</a>
+                </div>
+                <div class="card">
+                    <h3>Suns vs Clippers</h3>
+                    <a href="https://youtu.be/aX2pO7taTXQ?si=uCpsXUvHiKjWbG5r" target="_blank">Ver Video</a>
+                </div>
+                <div class="card">
+                    <h3>Jazz vs Nuggets</h3>
+                    <a href="https://youtu.be/4IaAJKTI758?si=l75KBdTlEFbTLbJM" target="_blank">Ver Video</a>
+                </div>
+                <div class="card">
+                    <h3>76ers vs Raptors</h3>
+                    <a href="https://youtu.be/0qXeDaUf4b4?si=QshEknDtCDnWKn3-" target="_blank">Ver Video</a>
+                </div>
+            </div>
+            <button class="back-button" onclick="backToHome()">Volver a Inicio</button>
+        </section>
+
+        <section id="entrevistas">
+            <h2>Entrevistas a Jugadores</h2>
+            <div id="lista-entrevistas" class="grid-container">
+                <div class="player-card card">
+                    <img src="C:\Users\Atzyri contreras\Downloads\sub1\asd.jpg" alt="Jugador 1" width="100" height="100">
+                    <div>
+                        <h3>Jordan Poole</h3>
+                        <p>"El baloncesto es mi vida."</p>
+                        <audio controls>
+                            <source src="C:\Users\Atzyri contreras\Downloads\sub1\Download pol.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+                <div class="player-card card">
+                    <img src="C:\Users\Atzyri contreras\Downloads\sub1\sph.jpg" alt="Jugador 2" width="100" height="100">
+                    <div>
+                        <h3>Shepthen Curry</h3>
+                        <p>"Siempre doy lo mejor en la cancha."</p>
+                        <audio controls>
+                            <source src="C:\Users\Atzyri contreras\Downloads\sub1\Download shp.mp3" type="audio/mpeg"> 
+                        </audio>
+                    </div>
+                </div>
+                <div class="player-card card">
+                    <img src="C:\Users\Atzyri contreras\Downloads\sub1\och.jpg" alt="Jugador 3" width="100" height="100">
+                    <div>
+                        <h3>Michael Jordan</h3>
+                        <p>"El esfuerzo siempre tiene recompensa."</p>
+                        <audio controls>
+                            <source src="C:\Users\Atzyri contreras\Downloads\sub1\Download mich.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+                <div class="player-card card">
+                    <img src="C:\Users\Atzyri contreras\Downloads\sub1\gianiss.jpg"  alt="Jugador 4" width="100" height="100">
+                    <div>
+                        <h3>Giannis</h3>
+                        <p>"Ganar no solo es para que te reconozcan."</p>
+                        <audio controls>
+                            <source src="C:\Users\Atzyri contreras\Downloads\sub1\Download gin.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+                <div class="player-card card">
+                    <img src="C:\Users\Atzyri contreras\Downloads\sub1\jw.jpg" alt="Jugador 5" width="100" height="100">
+                    <div>
+                        <h3>Kyrie Irving</h3>
+                        <p>"Llegar a la cima no es facil,mas si nadie esta de tu lado."</p>
+                        <audio controls>
+                            <source src="C:\Users\Atzyri contreras\Downloads\sub1\Download kyer.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+            <button class="back-button" onclick="backToHome()">Volver a Inicio</button>
+        </section>
+
+        <section id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Mundo Deportivo NTB es una plataforma dedicada a brindar las últimas noticias y análisis sobre el baloncesto y otros deportes. Nuestro equipo de expertos trabaja arduamente para ofrecer contenido de calidad y actualizaciones en tiempo real.</p>
+            <p>contactos:</p>
+            <li>No.celular: 771-135-57-66</li>
+            <li><a href="https://www.facebook.com/Atzyri.hc10/">facebook</a></li>
+            <li><a href="https://www.instagram.com/atzyy.ch/">Instagram</a></li>
+            <li><a href="C:\Users\Atzyri contreras\Downloads\sub1\Atzy.pdf">Curriculum</a></li>
+            <button class="back-button" onclick="backToHome()">Volver a Inicio</button>
+        </section>
+
+        <section id="datos-interesantes">
+            <h2>Datos Interesantes</h2>
+            <div class="grid-container">
+                <div class="dato-card">
+                    <p>El baloncesto se inventó en 1891 por James Naismith.</p>
+                </div>
+                <div class="dato-card">
+                    <p>El primer partido de la NBA se jugó en 1946.</p>
+                </div>
+                <div class="dato-card">
+                    <p>Kareem Abdul-Jabbar es el máximo anotador de la historia de la NBA.</p>
+                </div>
+                <div class="dato-card">
+                    <p>Michael Jordan ganó seis campeonatos de la NBA con los Chicago Bulls en los años 90.</p>
+                </div>
+                <div class="dato-card">
+                    <p>El equipo de baloncesto de los Estados Unidos ganó la medalla de oro en las Olimpiadas de 1992 con el "Dream Team".</p>
+                </div>
+                <div class="dato-card">
+                    <p>El torneo de la NCAA de 1979 fue el comienzo de los grandes del baloncesto.</p>
+                </div>
+                <div class="dato-card">Naismith propuso dos tiempos de 15 minutos, con cinco minutos de descanso entre ellos..</p>
+                </div>
+                <div class="dato-card">
+                    <p>El baloncesto se jugaba con una pelota diferente.</p>
+                </div>
+                <div class="dato-card">
+                    <p>James Naismith inventó el baloncesto En 1891.</p>
+                </div>
+            </div>
+            <button class="back-button" onclick="backToHome()">Volver a Inicio</button>
+        </section>
+    </main>
+
+    <footer>
+        <div id="piepagina">
+            <p>&copy; Derechos Reservados por Mundo Deportivo NTB 2024</p>
+            <p>Realizado por Atzy Contreras</p>
+            <p id="visit-counter">Visitas: 0</p>
+            <span class="fecha"><div style="text-align:center;padding:0em 0;">
+                <h4><span style="color: rgb(132, 59, 192);"></span></h4>
+                <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=de&size=small&timezone=America%2FMexico_City&show=hour_minute" width="100%" height="90" frameborder="0" seamless></iframe>
+                <small style="color: rgb(153, 0, 255);">
+                  <a href="https://www.zeitzonenrechner.net/" style="color: rgb(132, 59, 192);"></a>
+                </small>
+                
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const continueButton = document.getElementById('continue-button');
+    const welcomeScreen = document.getElementById('welcome-screen');
+    const mainHeader = document.getElementById('main-header');
+    const sections = document.querySelectorAll('main section');
+
+    continueButton.addEventListener('click', () => {
+        welcomeScreen.style.display = 'none';
+        mainHeader.style.display = 'block';
+        sections.forEach(section => section.style.display = 'block');
+    });
+
+    // Manejar la navegación
+    const navLinks = document.querySelectorAll('nav ul li a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', event => {
+            event.preventDefault();
+            const targetId = link.getAttribute('href').substring(1);
+            sections.forEach(section => {
+                section.style.display = section.id === targetId ? 'block' : 'none';
+            });
+        });
+    });
+
+    // Contador de visitas
+    const visitCounter = document.getElementById('visit-counter');
+    let visits = localStorage.getItem('visits');
+    if (!visits) {
+        visits = 0;
+    }
+    visits++;
+    localStorage.setItem('visits', visits);
+    visitCounter.textContent = `Visitas: ${visits}`;
+});
+
+function backToHome() {
+    const sections = document.querySelectorAll('main section');
+    sections.forEach(section => section.style.display = 'none');
+    document.getElementById('main-header').style.display = 'block';
+}
+    </script>
+</body>
+</html>
